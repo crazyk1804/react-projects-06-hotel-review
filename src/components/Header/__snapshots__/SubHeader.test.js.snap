@@ -1,3 +1,49 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`the <SubHeader/> component should render 1`] = `ShallowWrapper {}`;
+exports[`the <SubHeader/> component should render 1`] = `
+<ForwardRef(styled.div)>
+  <ForwardRef(styled.h2) />
+</ForwardRef(styled.div)>
+`;
+
+exports[`the <SubHeader/> component with the enzyme shallow should render 1`] = `ShallowWrapper {}`;
+
+exports[`the <SubHeader/> component with the enzyme shallow should render with a from button 1`] = `ShallowWrapper {}`;
+
+exports[`the <SubHeader/> component with the enzyme shallow should render with a goback button 1`] = `ShallowWrapper {}`;
+
+exports[`the <Subheader/> component should render 1`] = `
+<ForwardRef(styled.div)>
+  <ForwardRef(styled.h2) />
+</ForwardRef(styled.div)>
+`;
+
+exports[`the <Subheader/> component should render with a dynamic title 1`] = `
+<ForwardRef(styled.div)>
+  <ForwardRef(styled.h2)>
+    Test Application Version 2
+  </ForwardRef(styled.h2)>
+</ForwardRef(styled.div)>
+`;
+
+exports[`the <Subheader/> component should render with a form button 1`] = `
+<ForwardRef(styled.div)>
+  <ForwardRef(styled.h2) />
+  <ForwardRef(Styled(Button))
+    onClick={[Function]}
+  >
+    + Add Review
+  </ForwardRef(Styled(Button))>
+</ForwardRef(styled.div)>
+`;
+
+exports[`the <Subheader/> component should render with a goback button 1`] = `
+<ForwardRef(styled.div)>
+  <ForwardRef(Styled(Button))
+    onClick={[Function]}
+  >
+    &lt; Go Back
+  </ForwardRef(Styled(Button))>
+  <ForwardRef(styled.h2) />
+</ForwardRef(styled.div)>
+`;

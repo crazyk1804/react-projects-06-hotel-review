@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the <Button/> component should render 1`] = `
+<ForwardRef(styled.button)>
+  This is a button
+</ForwardRef(styled.button)>
+`;
+
+exports[`the <Button/> component with shallow of the enzyme should render 1`] = `ShallowWrapper {}`;

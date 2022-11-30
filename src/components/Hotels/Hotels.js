@@ -12,7 +12,7 @@ export const HotelItemsWrapper = styled.div`
   margin: 2% 5%;
 `;
 
-const HotelLink = styled(Link)`
+export const HotelLink = styled(Link)`
   color: black;
   text-decoration: none;
 `;

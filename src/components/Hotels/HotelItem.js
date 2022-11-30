@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const HotelItemWrapper = styled.div`
+export const HotelItemWrapper = styled.div`
   display: flex;
   text-align: left;
   align-items: center;
@@ -17,7 +17,7 @@ export const Title = styled.h3`
   margin-left: 2%;
 `;
 
-const Thumbnail = styled.img`
+export const Thumbnail = styled.img`
   border-radius: 5px;
 `;
 
